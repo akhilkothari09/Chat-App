@@ -62,12 +62,6 @@ client/
 - MongoDB
 - OpenAI API Key
 
-### Setup
-
-\`\`\`bash
-# Clone the repository
-git clone https://github.com/AmanKumar2202/Chat-app
-cd whatsapp-clone-ai
 
 # Backend
 cd backend
@@ -114,4 +108,5 @@ npm run dev
 - ✅ AI Chatbot Assistant
 
 --
+
 
