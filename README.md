@@ -23,21 +23,21 @@ A full-featured WhatsApp-like chat app built using the MERN stack (MongoDB, Expr
 
 ## 📂 Project Structure
 
-\`\`\`bash
+```bash
 server/
 ├── controllers/
 │   ├── auth.controller.js
 │   ├── message.controller.js
-│   └── ai.controller.js    <-- AI logic
+│   └── ai.controller.js
 ├── routes/
 │   ├── auth.route.js
 │   ├── message.route.js
-│   └── ai.route.js         <-- AI endpoint
+│   └── ai.route.js
 ├── models/
 │   ├── User.js
 │   └── Message.js
 ├── utils/
-│   └── openai.js           <-- OpenAI setup
+│   └── openai.js
 └── server.js
 
 client/
@@ -45,13 +45,13 @@ client/
 │   ├── ChatContainer.jsx
 │   ├── MessageInput.jsx
 │   ├── SmartReply.jsx
-│   └── LiveTranscriber.jsx (planned)
+│   └── LiveTranscriber.jsx
 ├── store/
 │   ├── useAuthStore.js
 │   └── useChatStore.js
 ├── App.jsx
 └── index.js
-\`\`\`
+```
 
 ---
 
